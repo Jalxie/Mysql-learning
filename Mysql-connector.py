@@ -54,3 +54,7 @@ for n in promotioncode:
 	sql = "INSERT INTO promcode (code) VALUES (%s)",promotioncode
 	mycursor.execute(sql)
 	mydb.commit()
+
+
+
+    ##try to test branch
